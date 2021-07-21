@@ -1,0 +1,1 @@
+/home/froggo/Froggo/RepoGit/learn-rust/print_formatting/target/debug/print_formatting: /home/froggo/Froggo/RepoGit/learn-rust/print_formatting/src/main.rs /home/froggo/Froggo/RepoGit/learn-rust/print_formatting/src/print.rs
