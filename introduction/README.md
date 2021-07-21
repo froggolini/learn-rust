@@ -11,13 +11,13 @@
 - Initialize the project.
 
     ```bash
-    froggo@DESKTOP-0A2TM8Q:~/Froggo/RepoGit/learn-rust/introduction$ cargo init
+    froggo@froggo:~/learn-rust/introduction$ cargo init
         Created binary (application) package
     ```
 - Compile it.
     ```bash
-    froggo@DESKTOP-0A2TM8Q:~/Froggo/RepoGit/learn-rust/introduction$ cargo run
-    Compiling introduction v0.1.0 (/home/froggo/Froggo/RepoGit/learn-rust/introduction)
+    froggo@froggo:~/learn-rust/introduction$ cargo run
+    Compiling introduction v0.1.0 (/home/froggo/learn-rust/introduction)
         Finished dev [unoptimized + debuginfo] target(s) in 0.40s
         Running `target/debug/introduction`
     Hello, world!
@@ -25,23 +25,23 @@
     The command will compile as well as run the program. It compiled into `/target/debug/folder_name`.
 - Run the executable.
     ```bash
-    froggo@DESKTOP-0A2TM8Q:~/Froggo/RepoGit/learn-rust/introduction$ ./target/debug/introduction 
+    froggo@froggo:~/learn-rust/introduction$ ./target/debug/introduction 
     Hello, world!
     ```
 - If we just want to build, not run it.
     ```bash
-    froggo@DESKTOP-0A2TM8Q:~/Froggo/RepoGit/learn-rust/introduction$ cargo build
+    froggo@froggo:~/learn-rust/introduction$ cargo build
         Finished dev [unoptimized + debuginfo] target(s) in 0.00s
     ```
 - Build for Production.
     ```bash
-    froggo@DESKTOP-0A2TM8Q:~/Froggo/RepoGit/learn-rust/introduction$ cargo build --release
-    Compiling introduction v0.1.0 (/home/froggo/Froggo/RepoGit/learn-rust/introduction)
+    froggo@froggo:~/learn-rust/introduction$ cargo build --release
+    Compiling introduction v0.1.0 (/home/froggo/learn-rust/introduction)
         Finished release [optimized] target(s) in 0.18s
     ```
 - Run the Production release.
     ```bash
-    froggo@DESKTOP-0A2TM8Q:~/Froggo/RepoGit/learn-rust/introduction$ ./target/release/introduction 
+    froggo@froggo:~/learn-rust/introduction$ ./target/release/introduction 
     Hello, world!
     ```
 
